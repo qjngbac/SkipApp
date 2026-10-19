@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">跳跳助手</string>
+    <string name="service_name">跳跳助手开屏跳过服务</string>
+    <string name="service_description">用于在打开应用程序时，自动寻找并点击开屏广告中的“跳过”按钮。本服务完全本地运行，不收集任何用户数据，不联网。</string>
+    
+    <string name="status_title">服务状态</string>
+    <string name="status_enabled">正在守护中</string>
+    <string name="status_enabled_desc">无障碍服务已连接，退出界面后继续工作。微信、支付宝、云闪付及系统设置不参与跳过。</string>
+    <string name="status_disconnected">服务未连接</string>
+    <string name="status_disconnected_desc">权限已开启，但服务尚未连接或已被系统停止。若系统显示“无法运行”，请关闭后重新开启无障碍，并允许后台运行。</string>
+    <string name="status_disabled">服务未开启</string>
+    <string name="status_disabled_desc">点击此处，前往系统辅助功能列表开启【跳跳助手】</string>
+    
+    <string name="guide_title">使用指南与说明</string>
+    <string name="guide_1_title">为什么退出后依然能生效？</string>
+    <string name="guide_1_desc">退出界面不会主动停止服务。无障碍由系统绑定，仍可能被厂商后台策略停止；回到此页可查看是否已连接。</string>
+    <string name="guide_2_title">如果偶尔失效怎么办？</string>
+    <string name="guide_2_desc">若国内系统（如小米/OPPO/vivo等）休眠杀后台，建议在系统的【电池管理】中将本应用设置为【无限制】或【允许后台自启】。</string>
+    <string name="guide_3_title">Android 13/14+ 提示受限设置？</string>
+    <string name="guide_3_desc">若系统提示“受限设置”，请进入手机【设置】->【应用管理】->【跳跳助手】-> 点击右上角三个点 -> 选择【允许受限设置】即可。</string>
+
+    <string name="diag_title">运行诊断</string>
+    <string name="diag_entry">🔎 广告没跳过时，点这里看原因（无需数据线）</string>
+    <string name="diag_entry_desc">若某次开屏没有跳过，先在此清空记录，再去冷启动那个 App，然后回到这一页，就能看到服务扫到了什么、为什么没点。</string>
+
+    <string name="repair_entry">⚡ 系统显示「无法运行」时点这里，直接打开本服务开关页</string>
+    <string name="repair_entry_desc">过夜后若无障碍列表里本服务变成「无法运行」，说明系统已授权但起不动进程。这里直达该服务的开关页，把开关关掉等两秒再打开即可恢复；若跳转后是空白页，说明本机系统不支持直达，请照常从无障碍列表进入。</string>
+</resources>

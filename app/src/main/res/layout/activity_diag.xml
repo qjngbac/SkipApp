@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_screen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tv_diag_summary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card"
+            android:lineSpacingMultiplier="1.25"
+            android:padding="16dp"
+            android:textColor="@color/text_title"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/btn_diag_reset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_card"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="清空记录，然后去打开一个带开屏广告的 App"
+            android:textColor="@color/primary_dark"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_diag_log"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_card"
+            android:lineSpacingMultiplier="1.2"
+            android:padding="16dp"
+            android:textColor="@color/text_sub"
+            android:textSize="12sp"
+            android:textIsSelectable="true" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,39 @@
+# Gradle & Build Artifacts
+.gradle/
+.kotlin/
+build/
+app/build/
+*.apk
+
+# Local Configuration & Signing Secrets (DO NOT COMMIT)
+local.properties
+signing.properties
+*.keystore
+*.jks
+
+# IDE & Editor Files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Temporary & Log Files
+*.log
+*.tmp
+
+# Internal Tooling & Machine-Specific Scripts
+build.ps1
+install.ps1
+export_icons.ps1
+
+# Internal Collaboration Notes & Audit Drafts
+.workbuddy/
+rollback/
+AGENTS.md
+AI_HANDOVER.md
+CODE_AUDIT_REPORT.md
+各项目开发工具与环境清单.md
+代码审查问题清单_2026-10-12.md
+SkipApp_问题清单与功能需求_2026-10-13.md
+修复与验证记录_2026-10-13.md
+tests/

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SkipApp" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:windowBackground">@color/bg_screen</item>
+        <item name="android:statusBarColor">@color/bg_screen</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
